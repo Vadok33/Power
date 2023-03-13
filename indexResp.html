@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiliar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="row">
+            <div class="col-md-12">
+                <h1>Datos del Club</h1>
+            </div>
+            <div class="col-md-9 mt-3">
+                <label for="nombreClubInput" class="form-label">Nombre del Club</label>
+                <input type="text" id="nombreClubInput" class="form-control" >
+            </div>
+            <div class="col-md-3 mt-3">
+                <label for="nifClub" class="form-label">NIF del Club</label>
+                <input type="text" id="nifClub" class="form-control" >
+            </div>
+            <div class="col-md-6 mt-3">
+                <label for="pobClub" class="form-label">Población del Club</label>
+                <input type="text" id="pobClub" class="form-control" >
+            </div>
+            <div class="col-md-6 mt-3">
+                <label for="provClub" class="form-label">Provincia del Club</label>
+                <input type="text" id="provClub" class="form-control">
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="mailClub" class="form-label">Email oficial del Club</label>
+                <input type="email" id="mailClub" class="form-control" placeholder="example@example.com">
+            </div>
+
+        </form>
+        <form class="row">
+            
+            <div class="col-md-12 mt-3">
+                <h1>Datos del representante</h1>
+            </div>
+            <div class="col-md-4 mt-3">
+                <label for="nombreInput" class="form-label">Nombre</label>
+                <input type="text" id="nombreInput" class="form-control" >
+            </div>
+            <div class="col-md-4 mt-3">
+                <label for="apellido1Input" class="form-label">Primer apellido</label>
+                <input type="text" id="apellido1Input" class="form-control" >
+            </div>
+            <div class="col-md-4 mt-3">
+                <label for="apellido2Input" class="form-label">Segundo apellido</label>
+                <input type="text" id="apellido2Input" class="form-control" >
+            </div>
+            <div class="col-md-4 mt-3">
+                <label for="dniInput" class="form-label">DNI</label>
+                <input type="text" id="dniInput" class="form-control" placeholder="12345678K">
+            </div>
+            <div class="col-md-4 mt-3">
+                <label class="control-label" for="date">Fecha de nacimiento</label>
+                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+              </div>
+            <div class="col-md-4 mt-3">
+                <input type="radio" name="selecSexo" class="form-check-input" id="sexoImputF">
+                <label for="sexoImputF" class="form-check-label">Femenino</label>
+                <input type="radio" name="selecSexo" class="form-check-input" id="sexoImputM">
+                <label for="sexoImputM" class="form-check-label">Masculino</label>
+            </div>
+            <div class="col-md-2 mt-3">
+                <label for="tipoVia" class="form-label">Tipo de vía</label>
+                <input type="text" id="tipoVia" class="form-control" >
+            </div>
+            <div class="col-md-8 mt-3">
+                <label for="nameVia" class="form-label">Nombre de vía</label>
+                <input type="text" id="nameVia" class="form-control" >
+            </div>
+            <div class="col-md-2 mt-3">
+                <label for="numVia" class="form-label">Número</label>
+                <input type="text" id="numVia" class="form-control" >
+            </div>
+            <div class="col-md-5 mt-3">
+                <label for="pobVia" class="form-label">Población</label>
+                <input type="text" id="pobVia" class="form-control" >
+            </div>
+            <div class="col-md-5 mt-3">
+                <label for="provVia" class="form-label">Provincia</label>
+                <input type="text" id="provVia" class="form-control" >
+            </div>
+            <div class="col-md-2 mt-3">
+                <label for="cpVia" class="form-label">CP</label>
+                <input type="text" id="cpVia" class="form-control" >
+            </div>
+            <div class="col-md-6 mt-3">
+                <label for="telFijo" class="form-label">Teléfono fijo</label>
+                <input type="text" id="telFijo" class="form-control" >
+            </div>
+            <div class="col-md-6 mt-3">
+                <label for="telMovil" class="form-label">Teléfono movil</label>
+                <input type="text" id="telMovil" class="form-control" >
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="dniFile" class="form-label">DNI</label>
+                <input type="file" class="form-control" id="dniFile" multiple>
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="pagoFile" class="form-label">Justificante de pago</label>
+                <input type="file" class="form-control" id="pagoFile" >
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="docsFile" class="form-label">Documentos firmados</label>
+                <input type="file" class="form-control" id="docsFile" multiple>
+            </div>
+            <div class="col-md-12 mt-3">
+                <input type="checkbox" class="form-check-input" id="terminosInput">
+                <label for="terminosInput" class="form-check-label">He leído y acepto la política de privacidad.</label>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
