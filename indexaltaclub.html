@@ -10,7 +10,23 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container ">
+        <div class="row">
+            <div class="col-4 mt-3 mb-3 offset-4">
+            <a href=""><img src="cropped-logo-AEP.png" alt="logo" width="350px"></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="https://powerhispania.net/">INICIO</a>
+            <a class="navbar-brand" href="https://powerhispania.net/antidopaje/">ANTIDOPAJE</a>
+            <a class="navbar-brand" href="https://powerhispania.net/noticias/">NOTICIAS</a>
+            <a class="navbar-brand" href="indexadmin.html">ADMINISTRAR</a>
+            <a class="navbar-brand" href="indexaltaclub.html">ALTA CLUB</a>
+        </div>
+    </nav>
+    <div class="container mt-3 mb-3 border">
         <form class="row">
             <div class="col-md-12">
                 <h1>Datos del Club</h1>
@@ -31,12 +47,14 @@
                 <label for="provClub" class="form-label">Provincia del Club</label>
                 <input type="text" id="provClub" class="form-control">
             </div>
-            <div class="col-md-12 mt-3">
+            <div class="col-md-12 mt-3 mb-3">
                 <label for="mailClub" class="form-label">Email oficial del Club</label>
                 <input type="email" id="mailClub" class="form-control" placeholder="example@example.com">
             </div>
 
         </form>
+    </div>
+    <div class="container mt-3 mb-3 border">
         <form class="row">
             
             <div class="col-md-12 mt-3">
@@ -64,9 +82,9 @@
               </div>
             <div class="col-md-4 mt-3">
                 <input type="radio" name="selecSexo" class="form-check-input" id="sexoImputF">
-                <label for="sexoImputF" class="form-check-label">Femenino</label>
+                <label for="sexoImputF" class="form-check-label">Mujer</label>
                 <input type="radio" name="selecSexo" class="form-check-input" id="sexoImputM">
-                <label for="sexoImputM" class="form-check-label">Masculino</label>
+                <label for="sexoImputM" class="form-check-label">Hombre</label>
             </div>
             <div class="col-md-2 mt-3">
                 <label for="tipoVia" class="form-label">Tipo de vía</label>
